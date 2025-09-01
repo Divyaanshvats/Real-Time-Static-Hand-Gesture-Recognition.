@@ -2,7 +2,7 @@
 **Author: DIVYAANSH VATS**
 
 
-**##📖 Overview**
+**📖 Overview**
 
 This project is a real-time static hand gesture recognition system built using Python, OpenCV, and Mediapipe.
 The webcam captures live video, and Mediapipe detects 21 landmarks (key points) on the hand.
@@ -44,17 +44,19 @@ Makes geometry-based classification fast and efficient.
 
 These frameworks are the best choice for this project as they provide real-time speed, accuracy, and ease of use without requiring complex deep learning training pipelines.
 
-✋ Gesture Logic Explanation
+
+
+**✋ Gesture Logic Explanation**
 
 The gestures are recognized by applying rule-based checks on landmark positions:
 
-Open Palm 🖐️
+**Open Palm 🖐️**
 
 All five fingers are extended (all landmarks farther from the wrist than their base joints).
 
 Palm surface is flat (z-coordinates of palm points are close together).
 
-Fist 👊
+**Fist 👊**
 
 All four non-thumb fingers are curled close to the palm center.
 
@@ -62,7 +64,7 @@ Thumb may be tucked inside or folded across fingers.
 
 Fingertips are within a short distance of the palm center.
 
-Peace Sign ✌️
+**Peace Sign ✌️**
 
 Index and Middle fingers extended.
 
@@ -70,7 +72,7 @@ Ring and Pinky folded.
 
 Index and Middle are separated by a visible gap, forming a “V” shape.
 
-Thumbs Up 👍
+**Thumbs Up 👍**
 
 Thumb extended upward, above wrist level.
 
@@ -78,13 +80,13 @@ All other four fingers folded near the palm center.
 
 Works even when the hand is rotated.
 
-OK Sign 👌
+**OK Sign 👌**
 
 Thumb tip and Index tip touch (circle formation).
 
 At least two of the other fingers (Middle, Ring, Pinky) are extended.
 
-Rock Sign 🤘
+**Rock Sign 🤘**
 
 Index and Pinky fingers extended.
 
@@ -132,7 +134,9 @@ The system will classify and display the gesture name in real time.
 
 To exit the program, press q in the webcam window.
 
-🎥 Demo
+
+
+**🎥 Demo**
 
 A demo video of the system in action has been provided in the repository as a demo file.
 
