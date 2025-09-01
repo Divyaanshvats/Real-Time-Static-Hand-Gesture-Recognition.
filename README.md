@@ -1,6 +1,7 @@
 # **Real-Time-Static-Hand-Gesture-Recognition**.
 **Author: DIVYAANSH VATS**
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📖 Overview**
 
@@ -44,7 +45,7 @@ Makes geometry-based classification fast and efficient.
 
 These frameworks are the best choice for this project as they provide real-time speed, accuracy, and ease of use without requiring complex deep learning training pipelines.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **✋ Gesture Logic Explanation**
 
@@ -96,7 +97,9 @@ Thumb position can vary.
 
 If none of these conditions are met, the gesture is labeled Unknown.
 
-🛠️ Setup and Execution Instructions
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**🛠️ Setup and Execution Instructions**
 1. Clone or Download the Project
 git clone <your-repo-link>
 cd <your-project-folder>
@@ -134,6 +137,8 @@ The system will classify and display the gesture name in real time.
 
 To exit the program, press q in the webcam window.
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 **🎥 Demo**
