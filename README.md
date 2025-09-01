@@ -1,5 +1,5 @@
 # **Real-Time-Static-Hand-Gesture-Recognition**.
-##**Author: DIVYAANSH VATS**
+**Author: DIVYAANSH VATS**
 
 
 **##📖 Overview**
